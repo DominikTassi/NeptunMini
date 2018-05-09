@@ -1,0 +1,8 @@
+meiit/demo/DemoApplication.class
+meiit/demo/services/MotorService.class
+meiit/demo/controllers/HomeController.class
+meiit/demo/controllers/MotorController.class
+meiit/demo/controllers/model/MotorModel.class
+meiit/demo/entity/Motor.class
+meiit/demo/services/impl/MotorServiceImpl.class
+meiit/demo/repository/MotorRepository.class

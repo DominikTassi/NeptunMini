@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Saturn</title>
+</head>
+<body>
+    <h3>Students:</h3>
+
+        <div    th:each="student : ${studentList}">
+        <div    th:text="${student.studentId}">studentId</div>
+        <div    th:text="${student.studentName}">studentName</div>
+        <div    th:text="${student.subjects}">subjects</div>
+    </div>
+    <form action="http://localhost:8080">
+        <input type="submit" value="home" />
+    </form>
+</body>
+</html>

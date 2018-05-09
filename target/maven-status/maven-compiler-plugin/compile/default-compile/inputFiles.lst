@@ -1,0 +1,8 @@
+/home/gabber/webalk/demo/src/main/java/meiit/demo/repository/MotorRepository.java
+/home/gabber/webalk/demo/src/main/java/meiit/demo/controllers/MotorController.java
+/home/gabber/webalk/demo/src/main/java/meiit/demo/entity/Motor.java
+/home/gabber/webalk/demo/src/main/java/meiit/demo/controllers/HomeController.java
+/home/gabber/webalk/demo/src/main/java/meiit/demo/services/MotorService.java
+/home/gabber/webalk/demo/src/main/java/meiit/demo/services/impl/MotorServiceImpl.java
+/home/gabber/webalk/demo/src/main/java/meiit/demo/DemoApplication.java
+/home/gabber/webalk/demo/src/main/java/meiit/demo/controllers/model/MotorModel.java

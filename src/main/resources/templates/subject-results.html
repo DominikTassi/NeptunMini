@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+Added Subject
+
+        Id:<span th:text="${newSubject.subjectId}"></span><br>
+        Name:<span th:text="${newSubject.subjectName}"></span><br>
+        Credit:<span th:text="${newSubject.credit}"></span><br>
+
+<form action="http://localhost:8080">
+    <input type="submit" value="home" />
+</form>
+</body>
+</html>
