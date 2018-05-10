@@ -54,6 +54,7 @@ public class StudentController implements WebMvcConfigurer {
         Subject subject2 = new Subject("GEAIL-686B", "Oracle", 4);
 
         Student student = new Student("QLNW5K", "Tassi Dominik");
+
         student.addSubject(subject1);
         student.addSubject(subject2);
 
@@ -81,4 +82,5 @@ public class StudentController implements WebMvcConfigurer {
         ra.addFlashAttribute("newStudent", studentModel);
         return "redirect:/student-results";
     }
+
 }

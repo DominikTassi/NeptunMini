@@ -94,14 +94,7 @@
 	</build>
 
 	<repositories>
-		<repository>
-			<subjectId>spring-milestones</subjectId>
-			<subjectName>Spring Milestones</subjectName>
-			<url>https://repo.spring.io/milestone</url>
-			<snapshots>
-				<enabled>false</enabled>
-			</snapshots>
-		</repository>
+
 	</repositories>
 
 
