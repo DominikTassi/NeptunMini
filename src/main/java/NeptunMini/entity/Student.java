@@ -50,6 +50,13 @@ public class Student implements Serializable {
         subjects.add(subject);
     }
 
+    public void addMark(String subjectId, int mark){
+        for(int i = 0; i <= subjects.size(); i++){
+            if(subjects.get(i).getSubjectId().equals(subjectId))
+                subjects.get(i).setMark(mark);
+        }
+    }
+
     public Student() {
     }
 }

@@ -83,4 +83,5 @@ public class StudentController implements WebMvcConfigurer {
         return "redirect:/student-results";
     }
 
+
 }

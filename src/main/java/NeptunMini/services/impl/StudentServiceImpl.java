@@ -1,5 +1,6 @@
 package NeptunMini.services.impl;
 
+import NeptunMini.entity.Subject;
 import NeptunMini.repository.StudentRepository;
 import NeptunMini.entity.Student;
 import NeptunMini.services.StudentService;
@@ -32,5 +33,6 @@ public class StudentServiceImpl implements StudentService {
     public void addStudent(Student student) {
         studentRepository.save(student);
     }
+
 
 }

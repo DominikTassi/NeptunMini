@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>NeptunMini</title>
+</head>
+<body>
+Added Mark
+
+Id:<span th:text="${student.studenId}"></span><br>
+Id:<span th:text="${student.name}"></span><br>
+
+Name:<span th:text="${subject.subjectName}"></span><br>
+Credit:<span th:text="${subject.mark}"></span><br>
+
+<form action="http://localhost:8080">
+    <input type="submit" value="home" />
+</form>
+</body>
+</html>
