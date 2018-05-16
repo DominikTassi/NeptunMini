@@ -11,13 +11,13 @@
         <div    th:text="${student.studentId}">studentId</div>
         <div    th:text="${student.studentName}">studentName</div>
             Registered subjects:
-            <div    th:each="subject : ${student.subjects}">
-                <div    th:text="${subject.subjectId}">subjectId</div>
-                <div    th:text="${subject.subjectName}">subjectName</div>
+            <div    th:each="regsub : ${student.registeredSubjects}">
+                <div    th:text="${regsub.subject.subjectId}">subjectId</div>
+                <div    th:text="${regsub.subject.subjectName}">subjectName</div>
                 Credit:
-                <div    th:text="${subject.credit}">credit</div>
+                <div    th:text="${regsub.subject.credit}">credit</div>
                 Mark:
-                <div    th:text="${subject.mark}">mark</div>
+                <div    th:text="${regsub.mark}">mark</div>
             </div>
         </div>
     <form action="http://localhost:8080">

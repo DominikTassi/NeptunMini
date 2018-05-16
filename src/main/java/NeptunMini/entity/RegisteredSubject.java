@@ -43,4 +43,6 @@ public class RegisteredSubject implements Serializable {
         this.mark = mark;
     }
 
+    public RegisteredSubject() {
+    }
 }

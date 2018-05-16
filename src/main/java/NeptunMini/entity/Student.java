@@ -1,9 +1,6 @@
 package NeptunMini.entity;
 
-import javax.persistence.Entity;
-import javax.persistence.FetchType;
-import javax.persistence.Id;
-import javax.persistence.OneToMany;
+import javax.persistence.*;
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
@@ -14,7 +11,7 @@ public class Student implements Serializable {
     private String studentId;
     private String studentName;
 
-    @OneToMany
+    @OneToMany(cascade= CascadeType.ALL)
     private List<RegisteredSubject> registeredSubjects = new ArrayList<>();
 
     public Student(String studentId, String studentName) {

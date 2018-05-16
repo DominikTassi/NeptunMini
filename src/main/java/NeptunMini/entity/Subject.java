@@ -10,7 +10,6 @@ public class Subject implements Serializable {
     private String subjectId;
     private String subjectName;
     private int credit;
-    private int mark;
 
     public Subject(String subjectId, String subjectName, int credit) {
         this.subjectId = subjectId;
