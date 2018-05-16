@@ -1,6 +1,7 @@
 package NeptunMini.controllers;
 
 import NeptunMini.controllers.model.StudentModel;
+import NeptunMini.entity.RegisteredSubject;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.validation.BindingResult;
@@ -55,8 +56,8 @@ public class StudentController implements WebMvcConfigurer {
 
         Student student = new Student("QLNW5K", "Tassi Dominik");
 
-        student.addSubject(subject1);
-        student.addSubject(subject2);
+        student.addRegisteredSubjects(new RegisteredSubject(subject1, 5));
+        student.addRegisteredSubjects(new RegisteredSubject(subject2, 3));
 
         studentService.addStudent(student);
         return true;
@@ -74,7 +75,7 @@ public class StudentController implements WebMvcConfigurer {
             return "student-form";
 
         Student student = new Student(studentModel.getStudentId(), studentModel.getStudentName());
-        student.setSubjects(student.getSubjects());
+        student.setRegisteredSubjects(student.getRegisteredSubjects());
 
         System.out.println(studentModel.toString());
 
