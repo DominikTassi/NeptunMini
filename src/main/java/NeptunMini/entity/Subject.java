@@ -16,7 +16,6 @@ public class Subject implements Serializable {
         this.subjectId = subjectId;
         this.subjectName = subjectName;
         this.credit = credit;
-        this.mark = 1;
     }
 
     public Subject() {
@@ -46,11 +45,4 @@ public class Subject implements Serializable {
         this.credit = credit;
     }
 
-    public int getMark() {
-        return mark;
-    }
-
-    public void setMark(int mark) {
-        this.mark = mark;
-    }
 }

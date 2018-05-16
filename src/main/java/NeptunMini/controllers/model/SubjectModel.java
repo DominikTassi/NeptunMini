@@ -17,12 +17,7 @@ public class SubjectModel {
     private String subjectName;
 
     @NotNull
- //   @Range(min = 0, max = 15)
     private int credit;
-
-    @NotNull
-   // @Range(min = 1, max = 5)
-    private int mark;
 
 
     public String getSubjectId() {
@@ -47,14 +42,6 @@ public class SubjectModel {
 
     public void setCredit(int credit) {
         this.credit = credit;
-    }
-
-    public int getMark() {
-        return mark;
-    }
-
-    public void setMark(int mark) {
-        this.mark = mark;
     }
 
     @Override

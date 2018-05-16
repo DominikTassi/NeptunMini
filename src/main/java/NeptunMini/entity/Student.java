@@ -14,8 +14,8 @@ public class Student implements Serializable {
     private String studentId;
     private String studentName;
 
-    @OneToMany(targetEntity=Subject.class, fetch=FetchType.EAGER)
-    private List<Subject> subjects = new ArrayList<>();
+    @OneToMany
+    private List<RegisteredSubject> registeredSubjects = new ArrayList<>();
 
     public Student(String studentId, String studentName) {
         this.studentId = studentId;
@@ -38,23 +38,16 @@ public class Student implements Serializable {
         this.studentName = studentName;
     }
 
-    public List<Subject> getSubjects() {
-        return subjects;
+    public List<RegisteredSubject> getRegisteredSubjects() {
+        return registeredSubjects;
     }
 
-    public void setSubjects(List<Subject> subjects) {
-        this.subjects = subjects;
+    public void setRegisteredSubjects(List<RegisteredSubject> registeredSubjects) {
+        this.registeredSubjects = registeredSubjects;
     }
 
-    public void addSubject(Subject subject){
-        subjects.add(subject);
-    }
-
-    public void addMark(String subjectId, int mark){
-        for(int i = 0; i <= subjects.size(); i++){
-            if(subjects.get(i).getSubjectId().equals(subjectId))
-                subjects.get(i).setMark(mark);
-        }
+    public void addRegisteredSubjects(RegisteredSubject registeredSubject){
+        registeredSubjects.add(registeredSubject);
     }
 
     public Student() {

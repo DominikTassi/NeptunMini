@@ -20,11 +20,11 @@ public class StudentServiceImpl implements StudentService {
 
     @Override
     public List<Student> getAllStudent() {
-        Iterable<Student> allMotor = studentRepository.findAll();
+        Iterable<Student> allStudent = studentRepository.findAll();
 
         List<Student> studentList = new ArrayList<>();
-        for(Student motor : allMotor){
-            studentList.add(motor);
+        for(Student student : allStudent){
+            studentList.add(student);
         }
         return studentList;
     }

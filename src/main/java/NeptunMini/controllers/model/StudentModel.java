@@ -1,5 +1,6 @@
 package NeptunMini.controllers.model;
 
+import NeptunMini.entity.RegisteredSubject;
 import lombok.Data;
 import NeptunMini.entity.Subject;
 
@@ -18,7 +19,7 @@ public class StudentModel {
     @Size(max = 100)
     String studentName;
 
-    List<Subject> subjects = new ArrayList<>();
+    private List<RegisteredSubject> registeredSubjects = new ArrayList<>();
 
 
     public String getStudentId() {
@@ -37,28 +38,20 @@ public class StudentModel {
         this.studentName = studentName;
     }
 
-    public List<Subject> getSubjects() {
-        return subjects;
+    public List<RegisteredSubject> getRegisteredSubjects() {
+        return registeredSubjects;
     }
 
-    public void setSubjects(List<Subject> subjects) {
-        this.subjects = subjects;
+    public void setRegisteredSubjects(List<RegisteredSubject> registeredSubjects) {
+        this.registeredSubjects = registeredSubjects;
     }
-
-    public void addMark(String subjectId, int mark){
-        for(int i = 0; i <= subjects.size(); i++){
-            if(subjects.get(i).getSubjectId().equals(subjectId))
-                subjects.get(i).setMark(mark);
-        }
-    }
-
 
     @Override
     public String toString() {
         return "StudentModel{" +
                 "studentId='" + studentId + '\'' +
                 ", studentName='" + studentName + '\'' +
-                ", subjects=" + subjects +
+                ", registeredSubjects=" + registeredSubjects +
                 '}';
     }
 }
