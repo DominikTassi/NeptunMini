@@ -109,12 +109,9 @@ public class StudentController implements WebMvcConfigurer {
     @PostMapping("/registerSubject")
     public String addSubject(@Valid AddSubjectModel addSubjectModel, BindingResult bindingResult, RedirectAttributes ra){
         if(bindingResult.hasErrors())
-            return "addMark-form";
+            return "registerSubject-form";
 
-
-        Subject addSubject = subjectService.getSubjectById(addSubjectModel.getSubjectId());
-
-        studentService.addSubjectToStudent(addSubjectModel.getStudentId(), addSubject);
+       // studentService.addSubjectToStudent(addSubjectModel.getStudentId(),);
 
         System.out.println(addSubjectModel.toString());
         ra.addFlashAttribute("addedSubject", addSubjectModel);
