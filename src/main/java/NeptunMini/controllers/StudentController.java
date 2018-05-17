@@ -4,6 +4,7 @@ import NeptunMini.controllers.model.AddSubjectModel;
 import NeptunMini.controllers.model.MarkModel;
 import NeptunMini.controllers.model.StudentModel;
 import NeptunMini.entity.RegisteredSubject;
+import NeptunMini.services.SubjectService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.validation.BindingResult;
@@ -29,7 +30,7 @@ public class StudentController implements WebMvcConfigurer {
     public void addViewControllers(ViewControllerRegistry registry){
         registry.addViewController("/student-results").setViewName("student-results");
         registry.addViewController("/addMark-results").setViewName("addMark-results");
-        registry.addViewController("/addSubjectToStudent-results").setViewName("addSubjectToStudent-results");
+        registry.addViewController("/registerSubject-results").setViewName("registerSubejct-results");
     }
 
     @Autowired
@@ -102,7 +103,7 @@ public class StudentController implements WebMvcConfigurer {
 
     @GetMapping("/registerSubject")
     public String showRegisterSubjectForm(AddSubjectModel addSubjectModel) {
-        return "addMark-form";
+        return "registerSubject-form";
     }
 
     @PostMapping("/registerSubject")
@@ -110,14 +111,14 @@ public class StudentController implements WebMvcConfigurer {
         if(bindingResult.hasErrors())
             return "addMark-form";
 
-        Student student = studentService.getStudentById(addSubjectModel.getStudentId());
 
+        Subject addSubject = subjectService.getSubjectById(addSubjectModel.getSubjectId());
 
-       // studentService.addSubjectToStudent(addSubjectModel.getStudentId(), );
+        studentService.addSubjectToStudent(addSubjectModel.getStudentId(), addSubject);
 
         System.out.println(addSubjectModel.toString());
         ra.addFlashAttribute("addedSubject", addSubjectModel);
-        return "redirect:/addSubject-results";
+        return "redirect:/registerSubject-results";
     }
 
 

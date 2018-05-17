@@ -68,13 +68,7 @@ public class SubjectController implements WebMvcConfigurer {
         subjectService.addSubject(subject);
 
         ra.addFlashAttribute("newSubject", subjectModel);
-        return "redirect:/subject-resutls";
-    }
-
-
-    @RequestMapping(value = " /getSubject/{subjectId}", method=RequestMethod.GET)
-    public Subject getOrder(@PathVariable String subjectId){
-        return subjectService.getSubjectById(subjectId);
+        return "redirect:/subject-results";
     }
 
 }

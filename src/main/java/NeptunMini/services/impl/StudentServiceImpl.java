@@ -4,9 +4,7 @@ import NeptunMini.entity.RegisteredSubject;
 import NeptunMini.entity.Subject;
 import NeptunMini.repository.StudentRepository;
 import NeptunMini.entity.Student;
-import NeptunMini.repository.SubjectRepository;
 import NeptunMini.services.StudentService;
-import NeptunMini.services.SubjectService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
