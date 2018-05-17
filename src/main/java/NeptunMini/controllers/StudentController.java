@@ -111,7 +111,7 @@ public class StudentController implements WebMvcConfigurer {
         if(bindingResult.hasErrors())
             return "registerSubject-form";
 
-       // studentService.addSubjectToStudent(addSubjectModel.getStudentId(),);
+        studentService.addSubjectToStudent(addSubjectModel.getStudentId(), addSubjectModel.getSubjectId());
 
         System.out.println(addSubjectModel.toString());
         ra.addFlashAttribute("addedSubject", addSubjectModel);

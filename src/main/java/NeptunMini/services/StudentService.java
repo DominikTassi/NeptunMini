@@ -10,5 +10,5 @@ public interface StudentService {
     public void addStudent(Student student);
     public Student getStudentById(String id);
     public void addMark(String stuid, String subid, int mark);
-    public void addSubjectToStudent(String studentId, Subject subject);
+    public void addSubjectToStudent(String studentId, String subjectId);
 }
