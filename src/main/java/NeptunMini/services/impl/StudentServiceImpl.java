@@ -4,7 +4,9 @@ import NeptunMini.entity.RegisteredSubject;
 import NeptunMini.entity.Subject;
 import NeptunMini.repository.StudentRepository;
 import NeptunMini.entity.Student;
+import NeptunMini.repository.SubjectRepository;
 import NeptunMini.services.StudentService;
+import NeptunMini.services.SubjectService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -63,15 +65,15 @@ public class StudentServiceImpl implements StudentService {
        Student student = getStudentById(stuid);
        student.setRegisteredSubjects(subjects);
 
-
-
        studentRepository.save(student);
 
     }
 
+
     @Override
     public void addSubjectToStudent(String studentId, Subject subject) {
         Student student = getStudentById(studentId);
+
         student.addRegisteredSubjects(new RegisteredSubject(subject, 1));
         studentRepository.save(student);
     }

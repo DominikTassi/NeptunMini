@@ -7,10 +7,7 @@ import NeptunMini.entity.RegisteredSubject;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.validation.BindingResult;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.config.annotation.ViewControllerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
@@ -114,7 +111,9 @@ public class StudentController implements WebMvcConfigurer {
             return "addMark-form";
 
         Student student = studentService.getStudentById(addSubjectModel.getStudentId());
-        studentService.addSubjectToStudent(addSubjectModel.getStudentId(), );
+
+
+       // studentService.addSubjectToStudent(addSubjectModel.getStudentId(), );
 
         System.out.println(addSubjectModel.toString());
         ra.addFlashAttribute("addedSubject", addSubjectModel);

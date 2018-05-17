@@ -2,14 +2,11 @@ package NeptunMini.controllers;
 
 import NeptunMini.controllers.model.SubjectModel;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.*;
 import NeptunMini.entity.Subject;
 import NeptunMini.services.SubjectService;
 import org.springframework.stereotype.Controller;
 import org.springframework.validation.BindingResult;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.config.annotation.ViewControllerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
@@ -75,5 +72,9 @@ public class SubjectController implements WebMvcConfigurer {
     }
 
 
+    @RequestMapping(value = " /getSubject/{subjectId}", method=RequestMethod.GET)
+    public Subject getOrder(@PathVariable String subjectId){
+        return subjectService.getSubjectById(subjectId);
+    }
 
 }
