@@ -14,6 +14,7 @@ import java.util.List;
 public class StudentServiceImpl implements StudentService {
     private StudentRepository studentRepository;
 
+
     @Autowired
     public StudentServiceImpl(StudentRepository studentRepository) {
         this.studentRepository = studentRepository;
@@ -66,6 +67,13 @@ public class StudentServiceImpl implements StudentService {
 
        studentRepository.save(student);
 
+    }
+
+    @Override
+    public void addSubjectToStudent(String studentId, Subject subject) {
+        Student student = getStudentById(studentId);
+        student.addRegisteredSubjects(new RegisteredSubject(subject, 1));
+        studentRepository.save(student);
     }
 
 

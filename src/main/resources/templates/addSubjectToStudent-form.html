@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Saturn</title>
+</head>
+<body>
+<form action="#" th:action="@{/student/addSubjectToStudent}" th:object="${addSubjectModel}" method="post">
+    <table>
+        <tr>
+            <td>Student Id:</td>
+            <td><input type="text" th:field="*{studentId}"></td>
+            <td th:if="${#fields.hasErrors('studentId')}" th:errors="*{studentId}">Student Id error</td>
+        </tr>
+
+        <td>Subject Id:</td>
+        <td><input type="text" th:field="*{subjectId}"></td>
+        <td th:if="${#fields.hasErrors('studentId')}" th:errors="*{subjectId}">Subject Id error</td>
+        </tr>
+            <td><button type="submit">Add</button> </td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>

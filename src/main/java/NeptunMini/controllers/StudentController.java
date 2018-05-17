@@ -1,5 +1,6 @@
 package NeptunMini.controllers;
 
+import NeptunMini.controllers.model.AddSubjectModel;
 import NeptunMini.controllers.model.MarkModel;
 import NeptunMini.controllers.model.StudentModel;
 import NeptunMini.entity.RegisteredSubject;
@@ -31,6 +32,7 @@ public class StudentController implements WebMvcConfigurer {
     public void addViewControllers(ViewControllerRegistry registry){
         registry.addViewController("/student-results").setViewName("student-results");
         registry.addViewController("/addMark-results").setViewName("addMark-results");
+        registry.addViewController("/addSubjectToStudent-results").setViewName("addSubjectToStudent-results");
     }
 
     @Autowired
@@ -99,6 +101,26 @@ public class StudentController implements WebMvcConfigurer {
         ra.addFlashAttribute("newMark", markModel);
         return "redirect:/addMark-results";
     }
+
+
+    @GetMapping("/registerSubject")
+    public String showRegisterSubjectForm(AddSubjectModel addSubjectModel) {
+        return "addMark-form";
+    }
+
+    @PostMapping("/registerSubject")
+    public String addSubject(@Valid AddSubjectModel addSubjectModel, BindingResult bindingResult, RedirectAttributes ra){
+        if(bindingResult.hasErrors())
+            return "addMark-form";
+
+        Student student = studentService.getStudentById(addSubjectModel.getStudentId());
+        studentService.addSubjectToStudent(addSubjectModel.getStudentId(), );
+
+        System.out.println(addSubjectModel.toString());
+        ra.addFlashAttribute("addedSubject", addSubjectModel);
+        return "redirect:/addSubject-results";
+    }
+
 
     @GetMapping("")
     public String showForm(StudentModel studentModel) {

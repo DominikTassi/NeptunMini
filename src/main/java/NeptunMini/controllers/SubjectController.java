@@ -76,5 +76,4 @@ public class SubjectController implements WebMvcConfigurer {
 
 
 
-
 }
