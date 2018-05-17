@@ -34,6 +34,18 @@ public class SubjectServiceImpl implements SubjectService {
         subjectRepository.save(subject);
     }
 
+    @Override
+    public Subject getSubjectById(String id) {
+        Subject subject;
+        Iterable<Subject> allSubject = subjectRepository.findAll();
 
+        while (allSubject.iterator().hasNext()) {
+            Subject sub = allSubject.iterator().next();
+            if(sub.getSubjectId().equals(id)){
+                return sub;
+            }
+        }
+        return null;
+    }
 
 }

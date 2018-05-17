@@ -1,5 +1,6 @@
 package NeptunMini.controllers;
 
+import NeptunMini.controllers.model.MarkModel;
 import NeptunMini.controllers.model.StudentModel;
 import NeptunMini.entity.RegisteredSubject;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -62,6 +63,44 @@ public class StudentController implements WebMvcConfigurer {
         studentService.addStudent(student);
         return true;
     }
+
+    @GetMapping("/addMarkTest")
+    @ResponseBody
+    boolean addMarkTest(){
+
+        studentService.addMark("QLNW5K","GEAIL-123B", 1);
+
+        return true;
+    }
+
+
+    @GetMapping("/addMark")
+    public String showAddMarkForm(StudentModel studentModel) {
+        return "addMark-form";
+    }
+
+    @PostMapping("/addMark")
+    public String addMark(@Valid MarkModel markModel, BindingResult bindingResult, RedirectAttributes ra){
+        if(bindingResult.hasErrors())
+            return "addMark-form";
+
+        Student student = studentService.getStudentById(markModel.getStudentId());
+        student.setRegisteredSubjects(student.getRegisteredSubjects());
+        List<RegisteredSubject> registeredSubjects = student.getRegisteredSubjects();
+
+        for (int i = 0; i < registeredSubjects.size(); i++){
+            if(registeredSubjects.get(i).getSubject().getSubjectId().equals(markModel.getSubjectId())){
+                studentService.addMark(markModel.getStudentId(), markModel.getSubjectId(), markModel.getMark());
+            }
+        }
+
+        System.out.println(markModel.toString());
+        ra.addFlashAttribute("newMark", markModel);
+        return "redirect:/addMark-results";
+    }
+
+
+
 
 
     @GetMapping("")

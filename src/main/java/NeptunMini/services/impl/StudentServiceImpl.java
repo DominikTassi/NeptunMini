@@ -1,5 +1,6 @@
 package NeptunMini.services.impl;
 
+import NeptunMini.entity.RegisteredSubject;
 import NeptunMini.entity.Subject;
 import NeptunMini.repository.StudentRepository;
 import NeptunMini.entity.Student;
@@ -32,6 +33,39 @@ public class StudentServiceImpl implements StudentService {
     @Override
     public void addStudent(Student student) {
         studentRepository.save(student);
+    }
+
+    @Override
+    public Student getStudentById(String id) {
+        Iterable<Student> allStudent= studentRepository.findAll();
+
+        while (allStudent.iterator().hasNext()) {
+            Student stu = allStudent.iterator().next();
+            if(stu.getStudentId().equals(id)){
+                return stu;
+            }
+        }
+        return null;
+    }
+
+    @Override
+    public void addMark(String stuid, String subid, int mark) {
+       List<RegisteredSubject> subjects = new ArrayList<>();
+       subjects = getStudentById(stuid).getRegisteredSubjects();
+       for(int i = 0; i < subjects.size(); i++){
+           if(subjects.get(i).getSubject().getSubjectId().equals(subid)){
+               subjects.get(i).setMark(mark);
+           }
+       }
+
+
+       Student student = getStudentById(stuid);
+       student.setRegisteredSubjects(subjects);
+
+
+
+       studentRepository.save(student);
+
     }
 
 
