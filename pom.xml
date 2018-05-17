@@ -93,9 +93,13 @@
 		</plugins>
 	</build>
 
+<<<<<<< Updated upstream
 	<repositories>
 
 	</repositories>
+=======
+
+>>>>>>> Stashed changes
 
 
 </project>
