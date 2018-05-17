@@ -30,6 +30,7 @@ public class StudentController implements WebMvcConfigurer {
     @Override
     public void addViewControllers(ViewControllerRegistry registry){
         registry.addViewController("/student-results").setViewName("student-results");
+        registry.addViewController("/addMark-results").setViewName("addMark-results");
     }
 
     @Autowired
@@ -75,7 +76,7 @@ public class StudentController implements WebMvcConfigurer {
 
 
     @GetMapping("/addMark")
-    public String showAddMarkForm(StudentModel studentModel) {
+    public String showAddMarkForm(MarkModel markModel) {
         return "addMark-form";
     }
 
@@ -98,10 +99,6 @@ public class StudentController implements WebMvcConfigurer {
         ra.addFlashAttribute("newMark", markModel);
         return "redirect:/addMark-results";
     }
-
-
-
-
 
     @GetMapping("")
     public String showForm(StudentModel studentModel) {
