@@ -2,7 +2,6 @@ package NeptunMini.controllers.model;
 
 import NeptunMini.entity.RegisteredSubject;
 import lombok.Data;
-import NeptunMini.entity.Subject;
 
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;

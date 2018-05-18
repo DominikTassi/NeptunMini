@@ -4,6 +4,7 @@ import NeptunMini.entity.RegisteredSubject;
 import NeptunMini.entity.Subject;
 import NeptunMini.repository.StudentRepository;
 import NeptunMini.entity.Student;
+import NeptunMini.repository.SubjectRepository;
 import NeptunMini.services.StudentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -13,6 +14,7 @@ import java.util.List;
 @Service
 public class StudentServiceImpl implements StudentService {
     private StudentRepository studentRepository;
+
 
     @Autowired
     public StudentServiceImpl(StudentRepository studentRepository) {
@@ -37,15 +39,7 @@ public class StudentServiceImpl implements StudentService {
 
     @Override
     public Student getStudentById(String id) {
-        Iterable<Student> allStudent= studentRepository.findAll();
-
-        while (allStudent.iterator().hasNext()) {
-            Student stu = allStudent.iterator().next();
-            if(stu.getStudentId().equals(id)){
-                return stu;
-            }
-        }
-        return null;
+        return studentRepository.getByStudentId(id);
     }
 
     @Override
@@ -68,14 +62,28 @@ public class StudentServiceImpl implements StudentService {
 
 
     @Override
-    public void addSubjectToStudent(String studentId, String subjectId) {
+    public void addSubjectToStudent(String studentId, Subject subject) {
         Student student = getStudentById(studentId);
-        Subject subject = 
-
-
         student.addRegisteredSubjects(new RegisteredSubject(subject, 1));
         studentRepository.save(student);
     }
+
+    @Override
+    public void deleteSubjectFromStudent(String studentId, String subjectId) {
+        Student student = getStudentById(studentId);
+        List<RegisteredSubject> subjects = getStudentById(studentId).getRegisteredSubjects();
+        for(int i = 0; i < subjects.size(); i++){
+            if(subjects.get(i).getSubject().getSubjectId().equals(subjectId)){
+                subjects.remove(subjects.get(i));
+            }
+        }
+        student.setRegisteredSubjects(subjects);
+
+        studentRepository.save(student);
+    }
+
+
+
 
 
 }

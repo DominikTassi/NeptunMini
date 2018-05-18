@@ -25,18 +25,24 @@ import java.util.List;
 @RequestMapping("/student")
 public class StudentController implements WebMvcConfigurer {
     private StudentService studentService;
+    private SubjectService subjectService;
 
     @Override
     public void addViewControllers(ViewControllerRegistry registry){
         registry.addViewController("/student-results").setViewName("student-results");
         registry.addViewController("/addMark-results").setViewName("addMark-results");
-        registry.addViewController("/registerSubject-results").setViewName("registerSubejct-results");
+        registry.addViewController("/registerSubject-results").setViewName("registerSubject-results");
+        registry.addViewController("/unregisterSubject-results").setViewName("unregisterSubject-results");
     }
 
+
     @Autowired
-    public StudentController(StudentService studentService) {
+    public StudentController(StudentService studentService, SubjectService subjectService) {
         this.studentService = studentService;
+        this.subjectService = subjectService;
     }
+
+
 
     @GetMapping("/list")
     @ResponseBody
@@ -111,7 +117,7 @@ public class StudentController implements WebMvcConfigurer {
         if(bindingResult.hasErrors())
             return "registerSubject-form";
 
-        studentService.addSubjectToStudent(addSubjectModel.getStudentId(), addSubjectModel.getSubjectId());
+        studentService.addSubjectToStudent(addSubjectModel.getStudentId(), subjectService.getSubjectById(addSubjectModel.getSubjectId()));
 
         System.out.println(addSubjectModel.toString());
         ra.addFlashAttribute("addedSubject", addSubjectModel);
@@ -139,5 +145,25 @@ public class StudentController implements WebMvcConfigurer {
         return "redirect:/student-results";
     }
 
+    @GetMapping("/unregisterSubject")
+    public String showUnregisterSubjectForm(AddSubjectModel deleteSubjectModel) {
+        return "unregisterSubject-form";
+    }
+
+    @PostMapping("/unregisterSubject")
+    public String deleteSubject(@Valid AddSubjectModel deleteSubjectModel, BindingResult bindingResult, RedirectAttributes ra){
+        if(bindingResult.hasErrors())
+            return "unregisterSubject-form";
+
+        studentService.deleteSubjectFromStudent(deleteSubjectModel.getStudentId(), deleteSubjectModel.getSubjectId());
+
+        System.out.println(deleteSubjectModel.toString());
+        ra.addFlashAttribute("deletedSubject", deleteSubjectModel);
+        return "redirect:/unregisterSubject-results";
+    }
+
+
+
 
 }
+

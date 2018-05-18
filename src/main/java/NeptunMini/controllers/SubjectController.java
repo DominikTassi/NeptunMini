@@ -48,6 +48,8 @@ public class SubjectController implements WebMvcConfigurer {
         subjectService.addSubject(subject);
         Subject subject2 = new Subject("GEAIL-686B", "Oracle", 4);
         subjectService.addSubject(subject2);
+        Subject subject3 = new Subject("GEAIL-000", "Physic 2", 4);
+        subjectService.addSubject(subject3);
         return true;
     }
 
