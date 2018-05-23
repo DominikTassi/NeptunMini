@@ -116,6 +116,20 @@ public class StudentController implements WebMvcConfigurer {
     public String addSubject(@Valid AddSubjectModel addSubjectModel, BindingResult bindingResult, RedirectAttributes ra){
         if(bindingResult.hasErrors())
             return "registerSubject-form";
+        try {
+            studentService.getStudentById(addSubjectModel.getSubjectId());
+        } catch(NullPointerException e) {
+            return "registerSubject-form";
+        }
+
+
+        try {
+            subjectService.getSubjectById(addSubjectModel.getSubjectId());
+        } catch(NullPointerException e) {
+            return "registerSubject-form";
+        }
+
+
 
         studentService.addSubjectToStudent(addSubjectModel.getStudentId(), subjectService.getSubjectById(addSubjectModel.getSubjectId()));
 
