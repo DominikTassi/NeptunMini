@@ -8,6 +8,8 @@ import NeptunMini.services.SubjectService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.validation.BindingResult;
+import org.springframework.validation.FieldError;
+import org.springframework.validation.ObjectError;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.config.annotation.ViewControllerRegistry;
@@ -118,11 +120,13 @@ public class StudentController implements WebMvcConfigurer {
             return "registerSubject-form";
 
         if(studentService.getStudentById(addSubjectModel.getStudentId()) != null && subjectService.getSubjectById(addSubjectModel.getSubjectId()) != null){
+
             studentService.addSubjectToStudent(addSubjectModel.getStudentId(), subjectService.getSubjectById(addSubjectModel.getSubjectId()));
             System.out.println(addSubjectModel.toString());
             ra.addFlashAttribute("addedSubject", addSubjectModel);
             return "redirect:/registerSubject-results";
         }
+        bindingResult.addError();
 
         return "registerSubject-form";
     }
