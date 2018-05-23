@@ -8,17 +8,22 @@
 <body>
     <h3>Students:</h3>
         <div    th:each="student : ${studentList}">
-        <div    th:text="${student.studentId}">studentId</div>
-        <div    th:text="${student.studentName}">studentName</div>
-            Registered subjects:
+            <h2> <div    th:text="${student.studentId}">studentId</div>
+                <div    th:text="${student.studentName}">studentName</div></h2>
+
+            <h3>Registered subjects:</h3>
             <div    th:each="regsub : ${student.registeredSubjects}">
-                <div    th:text="${regsub.subject.subjectId}">subjectId</div>
-                <div    th:text="${regsub.subject.subjectName}">subjectName</div>
+                <h2>
+                    <div    th:text="${regsub.subject.subjectId}">subjectId</div>
+                    <div    th:text="${regsub.subject.subjectName}">subjectName</div>
+                </h2>
+
                 Credit:
                 <div    th:text="${regsub.subject.credit}">credit</div>
                 Mark:
                 <div    th:text="${regsub.mark}">mark</div>
             </div>
+            <hr>
         </div>
     <form action="http://localhost:8080">
         <input type="submit" value="home" />

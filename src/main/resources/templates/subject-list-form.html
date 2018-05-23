@@ -9,9 +9,12 @@
 <h3>Subjects:</h3>
 
     <div    th:each="subject : ${subjectList}">
-    <div    th:text="${subject.subjectId}">subjectId</div>
-    <div    th:text="${subject.subjectName}">subjectName</div>
+        <h3>
+            <div    th:text="${subject.subjectId}">subjectId</div>
+            <div    th:text="${subject.subjectName}">subjectName</div></h3>
+    Credit:
     <div    th:text="${subject.credit}">credit</div>
+        <hr>
 </div>
 
 <form action="http://localhost:8080">
