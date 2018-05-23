@@ -16,7 +16,7 @@
 
         <td>Subject Id:</td>
         <td><input type="text" th:field="*{subjectId}"></td>
-        <td th:if="${#fields.hasErrors('studentId')}" th:errors="*{subjectId}">Subject Id error</td>
+        <td th:if="${#fields.hasErrors('subjectId')}" th:errors="*{subjectId}">Subject Id error</td>
         </tr>
             <td><button type="submit">Add</button> </td>
         </tr>

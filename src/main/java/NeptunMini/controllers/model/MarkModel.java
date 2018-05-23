@@ -1,6 +1,7 @@
 package NeptunMini.controllers.model;
 
 import lombok.Builder;
+import org.hibernate.validator.constraints.Range;
 
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
@@ -14,6 +15,7 @@ public class MarkModel {
     String subjectId;
 
     @NotNull
+    @Range(min = 1, max = 5)
     int mark;
 
 
