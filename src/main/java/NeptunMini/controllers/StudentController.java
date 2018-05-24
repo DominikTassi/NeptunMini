@@ -98,24 +98,30 @@ public class StudentController implements WebMvcConfigurer {
             return "addMark-form";
         }
 
-        if(subjectService.getSubjectById(markModel.getSubjectId()) == null){
-            bindingResult.rejectValue("subjectId", "error.markModell", "No student with this Id");
+        if(subjectService.getSubjectById(markModel.getSubjectId()) == null ){
+            bindingResult.rejectValue("subjectId", "error.markModell", "No subject with this Id");
             return "addMark-form";
         }
 
-        Student student = studentService.getStudentById(markModel.getStudentId());
-        student.setRegisteredSubjects(student.getRegisteredSubjects());
-        List<RegisteredSubject> registeredSubjects = student.getRegisteredSubjects();
 
-        for (int i = 0; i < registeredSubjects.size(); i++){
-            if(registeredSubjects.get(i).getSubject().getSubjectId().equals(markModel.getSubjectId())){
-                studentService.addMark(markModel.getStudentId(), markModel.getSubjectId(), markModel.getMark());
+        if(studentService.studentHasThis(studentService.getStudentById(markModel.getStudentId()), subjectService.getSubjectById(markModel.getSubjectId()))) {
+            Student localstudent = studentService.getStudentById(markModel.getStudentId());
+            localstudent.setRegisteredSubjects(localstudent.getRegisteredSubjects());
+            List<RegisteredSubject> localstudentRegisteredSubjects = localstudent.getRegisteredSubjects();
+
+            for (int i = 0; i < localstudentRegisteredSubjects.size(); i++){
+                if(localstudentRegisteredSubjects.get(i).getSubject().getSubjectId().equals(markModel.getSubjectId())){
+                    studentService.addMark(markModel.getStudentId(), markModel.getSubjectId(), markModel.getMark());
+                }
             }
-        }
 
-        System.out.println(markModel.toString());
-        ra.addFlashAttribute("newMark", markModel);
-        return "redirect:/addMark-results";
+            System.out.println(markModel.toString());
+            ra.addFlashAttribute("newMark", markModel);
+            return "redirect:/addMark-results";
+        }else{
+            bindingResult.rejectValue("subjectId", "error.subjectId", "Student has no subject with this id");
+            return "addMark-form";
+        }
     }
 
 
@@ -187,16 +193,18 @@ public class StudentController implements WebMvcConfigurer {
             bindingResult.rejectValue("subjectId", "error.subjectId", "No subject with this Id");
             return "unregisterSubject-form";
         }
+        if(studentService.studentHasThis(studentService.getStudentById(deleteSubjectModel.getStudentId()), subjectService.getSubjectById(deleteSubjectModel.getSubjectId()))) {
+            studentService.deleteSubjectFromStudent(deleteSubjectModel.getStudentId(), deleteSubjectModel.getSubjectId());
 
-        studentService.deleteSubjectFromStudent(deleteSubjectModel.getStudentId(), deleteSubjectModel.getSubjectId());
+            System.out.println(deleteSubjectModel.toString());
+            ra.addFlashAttribute("deletedSubject", deleteSubjectModel);
+            return "redirect:/unregisterSubject-results";
+        }else{
+            bindingResult.rejectValue("subjectId", "error.subjectId", "Student has no subject with this id");
+            return "unregisterSubject-form";
+        }
 
-        System.out.println(deleteSubjectModel.toString());
-        ra.addFlashAttribute("deletedSubject", deleteSubjectModel);
-        return "redirect:/unregisterSubject-results";
     }
-
-
-
 
 }
 

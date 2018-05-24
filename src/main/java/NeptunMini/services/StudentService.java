@@ -12,4 +12,5 @@ public interface StudentService {
     public void addMark(String stuid, String subid, int mark);
     public void addSubjectToStudent(String studentId, Subject subject);
     public void deleteSubjectFromStudent(String studentId, String subjectId);
+    public boolean studentHasThis(Student student, Subject subject);
 }

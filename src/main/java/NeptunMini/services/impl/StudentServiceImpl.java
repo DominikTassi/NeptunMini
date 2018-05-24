@@ -82,8 +82,16 @@ public class StudentServiceImpl implements StudentService {
         studentRepository.save(student);
     }
 
-
-
+    @Override
+    public boolean studentHasThis(Student student, Subject subject) {
+        List<RegisteredSubject> registeredSubjects = student.getRegisteredSubjects();
+        for(int i = 0; i < registeredSubjects.size(); i++){
+            if(registeredSubjects.get(i).getSubject().equals(subject)){
+                return true;
+            }
+        }
+        return false;
+    }
 
 
 }
