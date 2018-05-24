@@ -63,13 +63,22 @@ public class StudentController implements WebMvcConfigurer {
     boolean createDemo(){
         Subject subject1 = new Subject("GEAIL-123B", "Java Advanced", 5);
         Subject subject2 = new Subject("GEAIL-686B", "Oracle", 4);
+        Subject subject3 = new Subject("GEAIL-000", "Physic 2", 4);
 
-        Student student = new Student("QLNW5K", "Tassi Dominik");
+        Student student1 = new Student("QLNW5K", "Tassi Dominik");
+        student1.addRegisteredSubjects(new RegisteredSubject(subject1, 5));
+        student1.addRegisteredSubjects(new RegisteredSubject(subject2, 3));
+        studentService.addStudent(student1);
 
-        student.addRegisteredSubjects(new RegisteredSubject(subject1, 5));
-        student.addRegisteredSubjects(new RegisteredSubject(subject2, 3));
 
-        studentService.addStudent(student);
+        Student student2 = new Student("ABC123", "Kiss Elemér");
+        studentService.addStudent(student2);
+
+
+        Student student3 = new Student("WWW777", "Nagy Klára");
+        student3.addRegisteredSubjects(new RegisteredSubject(subject3, 1));
+        studentService.addStudent(student3);
+
         return true;
     }
 

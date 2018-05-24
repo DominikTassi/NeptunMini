@@ -12,11 +12,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="SubjectController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/NeptunMini/controllers/SubjectController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="50" selection-start-line="50" selection-end-line="50" selection-end-column="67" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="StudentController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/NeptunMini/controllers/StudentController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="453">
-              <caret line="124" column="5" lean-forward="true" selection-start-line="124" selection-start-column="5" selection-end-line="124" selection-end-column="5" />
+            <state relative-caret-position="555">
+              <caret line="58" column="5" lean-forward="true" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
               <folding>
                 <element signature="e#2975#2976#0" expanded="true" />
                 <element signature="e#3012#3013#0" expanded="true" />
@@ -37,8 +46,8 @@
       <file leaf-file-name="StudentServiceImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/NeptunMini/services/impl/StudentServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="543">
-              <caret line="91" column="9" lean-forward="true" selection-start-line="91" selection-start-column="9" selection-end-line="91" selection-end-column="9" />
+            <state relative-caret-position="-422">
+              <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
               <folding>
                 <element signature="e#1185#1186#0" expanded="true" />
                 <element signature="e#1244#1245#0" expanded="true" />
@@ -87,7 +96,6 @@
         <option value="$PROJECT_DIR$/src/main/java/NeptunMini/controllers/model/StudentModel.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/unregisterSubejct-results.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/home.html" />
-        <option value="$PROJECT_DIR$/src/main/java/NeptunMini/controllers/SubjectController.java" />
         <option value="$PROJECT_DIR$/src/main/java/NeptunMini/repository/SubjectRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/NeptunMini/services/impl/SubjectServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/NeptunMini/repository/StudentRepository.java" />
@@ -109,6 +117,7 @@
         <option value="$PROJECT_DIR$/src/main/resources/templates/addMark-form.html" />
         <option value="$PROJECT_DIR$/src/main/java/NeptunMini/services/StudentService.java" />
         <option value="$PROJECT_DIR$/src/main/java/NeptunMini/services/impl/StudentServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/NeptunMini/controllers/SubjectController.java" />
         <option value="$PROJECT_DIR$/src/main/java/NeptunMini/controllers/StudentController.java" />
       </list>
     </option>
@@ -398,7 +407,7 @@
       <workItem from="1526582195987" duration="3757000" />
       <workItem from="1526623576229" duration="7642000" />
       <workItem from="1527104261906" duration="1192000" />
-      <workItem from="1527141930885" duration="2758000" />
+      <workItem from="1527141930885" duration="4160000" />
     </task>
     <servers />
   </component>
@@ -435,7 +444,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73892000" />
+    <option name="totallyTimeSpent" value="75294000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -468,7 +477,7 @@
       <window_info anchor="bottom" id="Java Enterprise" order="8" weight="0.32900432" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.064550266" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.34074074" />
       <window_info anchor="bottom" id="Spring" order="10" weight="0.32900432" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.32900432" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4935484" visible="true" weight="0.23529412" />
@@ -736,13 +745,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/NeptunMini/controllers/SubjectController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="45" column="25" selection-start-line="45" selection-start-column="25" selection-end-line="45" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/addMark-results.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -808,17 +810,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/NeptunMini/services/StudentService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/NeptunMini/services/impl/StudentServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="543">
-          <caret line="91" column="9" lean-forward="true" selection-start-line="91" selection-start-column="9" selection-end-line="91" selection-end-column="9" />
+        <state relative-caret-position="-422">
+          <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
           <folding>
             <element signature="e#1185#1186#0" expanded="true" />
             <element signature="e#1244#1245#0" expanded="true" />
@@ -826,10 +821,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/NeptunMini/services/StudentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/NeptunMini/controllers/SubjectController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="50" selection-start-line="50" selection-end-line="50" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/NeptunMini/controllers/StudentController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
-          <caret line="124" column="5" lean-forward="true" selection-start-line="124" selection-start-column="5" selection-end-line="124" selection-end-column="5" />
+        <state relative-caret-position="555">
+          <caret line="58" column="5" lean-forward="true" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
           <folding>
             <element signature="e#2975#2976#0" expanded="true" />
             <element signature="e#3012#3013#0" expanded="true" />
