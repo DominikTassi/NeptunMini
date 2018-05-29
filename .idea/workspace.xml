@@ -12,73 +12,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SubjectController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/NeptunMini/controllers/SubjectController.java">
+      <file leaf-file-name="StudentServiceImplTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/NeptunMini/StudentServiceImplTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
-              <caret line="128" column="8" selection-start-line="128" selection-start-column="8" selection-end-line="128" selection-end-column="8" />
+            <state relative-caret-position="371">
+              <caret line="46" column="1" lean-forward="true" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
               <folding>
-                <element signature="e#2874#2875#0" expanded="true" />
-                <element signature="e#2911#2912#0" expanded="true" />
-                <element signature="e#3934#3935#0" expanded="true" />
-                <element signature="e#3979#3980#0" expanded="true" />
-                <element signature="e#4846#4847#0" expanded="true" />
-                <element signature="e#4883#4884#0" expanded="true" />
-                <element signature="e#5595#5596#0" expanded="true" />
-                <element signature="e#5642#5643#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StudentController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/NeptunMini/controllers/StudentController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="58" column="5" lean-forward="true" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
-              <folding>
-                <element signature="e#2975#2976#0" expanded="true" />
-                <element signature="e#3012#3013#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StudentService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/NeptunMini/services/StudentService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="7" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AddSubjectModel.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/NeptunMini/controllers/model/AddSubjectModel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="34" lean-forward="true" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
-              <folding>
-                <element signature="e#232#233#0" expanded="true" />
-                <element signature="e#264#265#0" expanded="true" />
-                <element signature="e#314#315#0" expanded="true" />
-                <element signature="e#356#357#0" expanded="true" />
-                <element signature="e#424#425#0" expanded="true" />
-                <element signature="e#474#475#0" expanded="true" />
-                <element signature="e#516#517#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StudentServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/NeptunMini/services/impl/StudentServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
-              <caret line="41" selection-start-line="41" selection-end-line="41" />
-              <folding>
-                <element signature="e#1185#1186#0" expanded="true" />
-                <element signature="e#1244#1245#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -90,8 +30,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="FxmlFile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -101,9 +42,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/mark.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/mark-results.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/mark-form.html" />
         <option value="$PROJECT_DIR$/src/main/java/NeptunMini/controllers/model/SubjectModel.java" />
         <option value="$PROJECT_DIR$/src/main/java/NeptunMini/repository/RegisteredSubjectsRepository.java" />
@@ -119,7 +57,6 @@
         <option value="$PROJECT_DIR$/src/main/java/NeptunMini/services/SubjectService.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/addSubjectModel-form.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/addSubjectModel-results.html" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/addSubjectToStudent-form.html" />
         <option value="$PROJECT_DIR$/src/main/java/NeptunMini/controllers/model/StudentModel.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/unregisterSubejct-results.html" />
@@ -147,6 +84,15 @@
         <option value="$PROJECT_DIR$/src/main/java/NeptunMini/services/impl/StudentServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/NeptunMini/controllers/SubjectController.java" />
         <option value="$PROJECT_DIR$/src/main/java/NeptunMini/controllers/StudentController.java" />
+        <option value="$PROJECT_DIR$/src/test/java/NeptunMini/StudentServiceTestConfig.java" />
+        <option value="$PROJECT_DIR$/src/test/java/NeptunMini/StudentIntegrationTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/NeptunMini/StudentControllerTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/NeptunMini/beans.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/NeptunMini/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/NeptunMini/entity/Mainú.java" />
+        <option value="$PROJECT_DIR$/src/main/java/NeptunMini/entity/Main.java" />
+        <option value="$PROJECT_DIR$/src/test/java/NeptunMini/StudentServiceImplTest.java" />
       </list>
     </option>
   </component>
@@ -166,20 +112,19 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="727" />
-    <option name="y" value="341" />
-    <option name="width" value="1389" />
-    <option name="height" value="789" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-66" />
+    <option name="y" value="-19" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -190,6 +135,11 @@
             <path>
               <item name="demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="NeptunMini" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NeptunMini" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -204,60 +154,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NeptunMini" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="NeptunMini" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NeptunMini" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="NeptunMini" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NeptunMini" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="NeptunMini" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NeptunMini" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="NeptunMini" type="462c0819:PsiDirectoryNode" />
-              <item name="repository" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NeptunMini" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="NeptunMini" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NeptunMini" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="NeptunMini" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="demo" type="b2602c69:ProjectViewProjectNode" />
@@ -270,14 +166,33 @@
               <item name="demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="NeptunMini" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NeptunMini" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NeptunMini" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="NeptunMini" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NeptunMini" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -296,10 +211,11 @@
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\domtassi\Documents\NeptunMini\src\main\resources" />
       <recent name="$PROJECT_DIR$/src/main/resources/templates" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources/templates" />
     </key>
   </component>
@@ -315,9 +231,54 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.DemoApplication">
+  <component name="RunManager">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="NeptunMini.entity.Main" />
+      <module name="NeptunMini" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="NeptunMini.entity.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="NeptunMini.Main" />
+      <module name="NeptunMini" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="NeptunMini.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="NeptunMini in NeptunMini" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="NeptunMini" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="NeptunMini.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="NeptunMini" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration name="RegisteredSubjectTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="NeptunMini" />
@@ -331,6 +292,29 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="NeptunMini" />
       <option name="MAIN_CLASS_NAME" value="NeptunMini.RegisteredSubjectTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="StudentServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="NeptunMini" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="NeptunMini.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="NeptunMini" />
+      <option name="MAIN_CLASS_NAME" value="NeptunMini.StudentServiceImplTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -409,11 +393,18 @@
     </configuration>
     <list>
       <item itemvalue="Spring Boot.DemoApplication" />
+      <item itemvalue="JUnit.NeptunMini in NeptunMini" />
       <item itemvalue="JUnit.StudentTest" />
       <item itemvalue="JUnit.RegisteredSubjectTest" />
+      <item itemvalue="JUnit.StudentServiceImplTest" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Main (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StudentServiceImplTest" />
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.RegisteredSubjectTest" />
         <item itemvalue="JUnit.StudentTest" />
       </list>
@@ -434,43 +425,45 @@
       <workItem from="1526538620812" duration="17963000" />
       <workItem from="1526582195987" duration="3757000" />
       <workItem from="1526623576229" duration="7642000" />
+      <workItem from="1527578413991" duration="9442000" />
+      <workItem from="1527594793934" duration="3692000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="StudentTest - 2018.05.23 at 13h 14m 08s.xml">
-      <configuration name="StudentTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StudentTest - 2018.05.23 at 13h 34m 44s.xml">
-      <configuration name="StudentTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RegisteredSubjectTest - 2018.05.23 at 13h 34m 50s.xml">
-      <configuration name="RegisteredSubjectTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RegisteredSubjectTest - 2018.05.23 at 13h 35m 25s.xml">
-      <configuration name="RegisteredSubjectTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RegisteredSubjectTest - 2018.05.23 at 13h 36m 18s.xml">
-      <configuration name="RegisteredSubjectTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RegisteredSubjectTest - 2018.05.23 at 13h 37m 42s.xml">
-      <configuration name="RegisteredSubjectTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RegisteredSubjectTest - 2018.05.23 at 13h 38m 23s.xml">
-      <configuration name="RegisteredSubjectTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RegisteredSubjectTest - 2018.05.23 at 13h 41m 24s.xml">
-      <configuration name="RegisteredSubjectTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="RegisteredSubjectTest - 2018.05.23 at 14h 33m 04s.xml">
       <configuration name="RegisteredSubjectTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="RegisteredSubjectTest - 2018.05.23 at 14h 33m 09s.xml">
       <configuration name="RegisteredSubjectTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="StudentIntegrationTest - 2018.05.29 at 09h 44m 56s.xml">
+      <configuration name="StudentIntegrationTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentIntegrationTest - 2018.05.29 at 12h 37m 20s.xml">
+      <configuration name="StudentIntegrationTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentIntegrationTest - 2018.05.29 at 12h 37m 33s.xml">
+      <configuration name="StudentIntegrationTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentIntegrationTest - 2018.05.29 at 12h 41m 35s.xml">
+      <configuration name="StudentIntegrationTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentIntegrationTest - 2018.05.29 at 12h 45m 01s.xml">
+      <configuration name="StudentIntegrationTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentIntegrationTest - 2018.05.29 at 12h 46m 53s.xml">
+      <configuration name="StudentIntegrationTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentServiceImplTest - 2018.05.29 at 14h 34m 30s.xml">
+      <configuration name="StudentServiceImplTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentServiceImplTest - 2018.05.29 at 14h 35m 59s.xml">
+      <configuration name="StudentServiceImplTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75294000" />
+    <option name="totallyTimeSpent" value="89423000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -497,13 +490,13 @@
       <window_info id="UI Designer" order="3" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.32486773" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32900432" />
-      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.4969743" weight="0.32629356" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.4969743" weight="0.32792208" />
       <window_info anchor="right" id="Palette&#9;" order="5" />
       <window_info id="Image Layers" order="4" />
       <window_info anchor="bottom" id="Java Enterprise" order="8" weight="0.32900432" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.48996833" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.44667372" />
       <window_info anchor="bottom" id="Spring" order="10" weight="0.32804233" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.32804233" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4935484" visible="true" weight="0.23489584" />
@@ -514,12 +507,9 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info id="UI Designer" order="3" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32804233" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.32486773" />
-      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.4969743" weight="0.32792208" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info id="Designer" order="7" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -534,104 +524,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/NeptunMini/controllers/model/SubjectModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.0.5.RELEASE/spring-aop-5.0.5.RELEASE.jar!/org/springframework/aop/framework/DefaultAdvisorChainFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/NeptunMini/services/SubjectService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/NeptunMini/controllers/model/StudentModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/NeptunMini/repository/SubjectRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="7" column="34" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/NeptunMini/controllers/model/RegisteredSubjectModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="36" column="20" lean-forward="true" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/NeptunMini/repository/RegisteredSubjectRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/NeptunMini/services/RegisteredSubjectService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/NeptunMini/repository/StudentRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/NeptunMini/entity/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="54" column="37" selection-start-line="54" selection-start-column="37" selection-end-line="54" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/NeptunMini/entity/RegisteredSubject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="50" column="37" selection-start-line="50" selection-start-column="37" selection-end-line="50" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/NeptunMini/RegisteredSubjectTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="29" selection-start-line="29" selection-end-line="32" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/NeptunMini/StudentTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-288">
-          <caret line="26" column="5" lean-forward="true" selection-start-line="23" selection-start-column="4" selection-end-line="26" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/NeptunMini/SubjectTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="37" column="52" lean-forward="true" selection-start-line="37" selection-start-column="52" selection-end-line="37" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/NeptunMini/entity/Subject.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="392">
@@ -685,10 +577,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#346#347#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -696,9 +584,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="279">
           <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -709,27 +594,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/Letöltések/jdk1.8.0_171/src.zip!/java/lang/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Letöltések/jdk1.8.0_171/src.zip!/java/lang/AbstractStringBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="68" selection-start-line="68" selection-end-line="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Letöltések/jdk1.8.0_171/src.zip!/java/lang/StringBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="89" selection-start-line="89" selection-end-line="89" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$USER_HOME$/Letöltések/jdk1.8.0_171/src.zip!/java/lang/Object.java" />
+    <entry file="jar://$USER_HOME$/Letöltések/jdk1.8.0_171/src.zip!/java/lang/AbstractStringBuilder.java" />
+    <entry file="jar://$USER_HOME$/Letöltések/jdk1.8.0_171/src.zip!/java/lang/StringBuilder.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.5.RELEASE/spring-context-5.0.5.RELEASE.jar!/org/springframework/validation/AbstractErrors.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
@@ -748,21 +615,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="528">
           <caret line="50" column="37" selection-start-line="50" selection-start-column="37" selection-end-line="50" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#353#354#0" expanded="true" />
-            <element signature="e#378#379#0" expanded="true" />
-            <element signature="e#415#416#0" expanded="true" />
-            <element signature="e#443#444#0" expanded="true" />
-            <element signature="e#602#603#0" expanded="true" />
-            <element signature="e#632#633#0" expanded="true" />
-            <element signature="e#679#680#0" expanded="true" />
-            <element signature="e#717#718#0" expanded="true" />
-            <element signature="e#745#746#0" expanded="true" />
-            <element signature="e#772#773#0" expanded="true" />
-            <element signature="e#809#810#0" expanded="true" />
-            <element signature="e#841#842#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -770,9 +622,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="29" selection-start-line="29" selection-end-line="32" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -780,19 +629,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-288">
           <caret line="26" column="5" lean-forward="true" selection-start-line="23" selection-start-column="4" selection-end-line="26" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/NeptunMini/controllers/model/AddSubjectModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="37" column="52" lean-forward="true" selection-start-line="37" selection-start-column="52" selection-end-line="37" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="323">
+          <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -802,10 +645,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="392">
           <caret line="49" column="37" selection-start-line="49" selection-start-column="37" selection-end-line="49" selection-end-column="37" />
-          <folding>
-            <element signature="e#517#518#0" expanded="true" />
-            <element signature="e#549#550#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -827,11 +666,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="70">
           <caret line="76" selection-start-line="76" selection-end-line="76" />
-          <folding>
-            <element signature="e#3154#3155#0" expanded="true" />
-            <element signature="e#3225#3226#0" expanded="true" />
-            <element signature="e#3288#3289#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -849,10 +683,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="188">
           <caret line="41" selection-start-line="41" selection-end-line="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1244#1245#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -866,40 +696,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="34" lean-forward="true" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
-          <folding>
-            <element signature="e#232#233#0" expanded="true" />
-            <element signature="e#264#265#0" expanded="true" />
-            <element signature="e#314#315#0" expanded="true" />
-            <element signature="e#356#357#0" expanded="true" />
-            <element signature="e#424#425#0" expanded="true" />
-            <element signature="e#474#475#0" expanded="true" />
-            <element signature="e#516#517#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/registerSubject-form.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
-          <caret line="25" column="7" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+          <caret line="25" column="7" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/registerSubject-results.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
+        <state relative-caret-position="289">
           <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/NeptunMini/services/impl/StudentServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-422">
-          <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
-          <folding>
-            <element signature="e#1185#1186#0" expanded="true" />
-            <element signature="e#1244#1245#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -921,25 +731,105 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="247" selection-start-line="247" selection-end-line="247" />
-          <folding>
-            <element signature="e#8401#8402#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/NeptunMini/controllers/StudentController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="128" column="8" selection-start-line="128" selection-start-column="8" selection-end-line="128" selection-end-column="8" />
+        <state relative-caret-position="2057">
+          <caret line="146" column="37" selection-start-line="146" selection-start-column="37" selection-end-line="146" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/NeptunMini/StudentServiceTestConfig.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/NeptunMini/services/impl/StudentServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="76" column="13" selection-start-line="76" selection-start-column="13" selection-end-line="76" selection-end-column="13" />
           <folding>
-            <element signature="e#2874#2875#0" expanded="true" />
-            <element signature="e#2911#2912#0" expanded="true" />
-            <element signature="e#3934#3935#0" expanded="true" />
-            <element signature="e#3979#3980#0" expanded="true" />
-            <element signature="e#4846#4847#0" expanded="true" />
-            <element signature="e#4883#4884#0" expanded="true" />
-            <element signature="e#5595#5596#0" expanded="true" />
-            <element signature="e#5642#5643#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#1137#1138#0" expanded="true" />
+            <element signature="e#1196#1197#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/NeptunMini/beans.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="8" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="117" column="28" lean-forward="true" selection-start-line="117" selection-start-column="28" selection-end-line="117" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/NeptunMini/DemoApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/NeptunMini/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/beans.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/beans.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/NeptunMini/entity/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/NeptunMini/StudentControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#685#686#0" expanded="true" />
+            <element signature="e#735#736#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/NeptunMini/StudentServiceImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="46" column="1" lean-forward="true" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
