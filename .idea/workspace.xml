@@ -15,8 +15,18 @@
       <file leaf-file-name="SubjectController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/NeptunMini/controllers/SubjectController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="50" selection-start-line="50" selection-end-line="50" selection-end-column="67" />
+            <state relative-caret-position="331">
+              <caret line="128" column="8" selection-start-line="128" selection-start-column="8" selection-end-line="128" selection-end-column="8" />
+              <folding>
+                <element signature="e#2874#2875#0" expanded="true" />
+                <element signature="e#2911#2912#0" expanded="true" />
+                <element signature="e#3934#3935#0" expanded="true" />
+                <element signature="e#3979#3980#0" expanded="true" />
+                <element signature="e#4846#4847#0" expanded="true" />
+                <element signature="e#4883#4884#0" expanded="true" />
+                <element signature="e#5595#5596#0" expanded="true" />
+                <element signature="e#5642#5643#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -37,8 +47,26 @@
       <file leaf-file-name="StudentService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/NeptunMini/services/StudentService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+            <state relative-caret-position="425">
+              <caret line="25" column="7" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AddSubjectModel.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/NeptunMini/controllers/model/AddSubjectModel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="34" lean-forward="true" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
+              <folding>
+                <element signature="e#232#233#0" expanded="true" />
+                <element signature="e#264#265#0" expanded="true" />
+                <element signature="e#314#315#0" expanded="true" />
+                <element signature="e#356#357#0" expanded="true" />
+                <element signature="e#424#425#0" expanded="true" />
+                <element signature="e#474#475#0" expanded="true" />
+                <element signature="e#516#517#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -46,8 +74,8 @@
       <file leaf-file-name="StudentServiceImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/NeptunMini/services/impl/StudentServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-422">
-              <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+            <state relative-caret-position="188">
+              <caret line="41" selection-start-line="41" selection-end-line="41" />
               <folding>
                 <element signature="e#1185#1186#0" expanded="true" />
                 <element signature="e#1244#1245#0" expanded="true" />
@@ -406,8 +434,6 @@
       <workItem from="1526538620812" duration="17963000" />
       <workItem from="1526582195987" duration="3757000" />
       <workItem from="1526623576229" duration="7642000" />
-      <workItem from="1527104261906" duration="1192000" />
-      <workItem from="1527141930885" duration="4160000" />
     </task>
     <servers />
   </component>
@@ -456,7 +482,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -471,16 +497,16 @@
       <window_info id="UI Designer" order="3" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.32486773" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32900432" />
-      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.4969743" weight="0.32698414" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.4969743" weight="0.32629356" />
       <window_info anchor="right" id="Palette&#9;" order="5" />
       <window_info id="Image Layers" order="4" />
       <window_info anchor="bottom" id="Java Enterprise" order="8" weight="0.32900432" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.34074074" />
-      <window_info anchor="bottom" id="Spring" order="10" weight="0.32900432" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32900432" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4935484" visible="true" weight="0.23529412" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.48996833" />
+      <window_info anchor="bottom" id="Spring" order="10" weight="0.32804233" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32804233" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4935484" visible="true" weight="0.23489584" />
       <window_info anchor="right" id="Bean Validation" order="7" />
       <window_info id="Web" order="5" sideWeight="0.5064516" side_tool="true" weight="0.17750533" />
       <window_info anchor="right" id="Theme Preview" order="8" />
@@ -488,9 +514,12 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info id="UI Designer" order="3" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32804233" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.32486773" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.4969743" weight="0.32792208" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info id="Designer" order="7" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -654,15 +683,22 @@
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.0.5.RELEASE/spring-aop-5.0.5.RELEASE.jar!/org/springframework/aop/target/SingletonTargetSource.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="289">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#346#347#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.0.5.RELEASE/spring-aop-5.0.5.RELEASE.jar!/org/springframework/aop/framework/JdkDynamicAopProxy.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="115" selection-start-line="115" selection-end-line="115" />
+        <state relative-caret-position="279">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -710,29 +746,53 @@
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.0.5.RELEASE/spring-core-5.0.5.RELEASE.jar!/org/springframework/util/StringUtils.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="44" selection-start-line="44" selection-end-line="44" />
+        <state relative-caret-position="528">
+          <caret line="50" column="37" selection-start-line="50" selection-start-column="37" selection-end-line="50" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#353#354#0" expanded="true" />
+            <element signature="e#378#379#0" expanded="true" />
+            <element signature="e#415#416#0" expanded="true" />
+            <element signature="e#443#444#0" expanded="true" />
+            <element signature="e#602#603#0" expanded="true" />
+            <element signature="e#632#633#0" expanded="true" />
+            <element signature="e#679#680#0" expanded="true" />
+            <element signature="e#717#718#0" expanded="true" />
+            <element signature="e#745#746#0" expanded="true" />
+            <element signature="e#772#773#0" expanded="true" />
+            <element signature="e#809#810#0" expanded="true" />
+            <element signature="e#841#842#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/NeptunMini/controllers/model/MarkModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="48" column="42" selection-start-line="48" selection-start-column="42" selection-end-line="48" selection-end-column="42" />
+        <state relative-caret-position="238">
+          <caret line="29" selection-start-line="29" selection-end-line="32" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/NeptunMini/services/impl/SubjectServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        <state relative-caret-position="-288">
+          <caret line="26" column="5" lean-forward="true" selection-start-line="23" selection-start-column="4" selection-end-line="26" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/NeptunMini/controllers/model/AddSubjectModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        <state relative-caret-position="188">
+          <caret line="37" column="52" lean-forward="true" selection-start-line="37" selection-start-column="52" selection-end-line="37" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -740,8 +800,12 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html" />
     <entry file="file://$PROJECT_DIR$/src/main/java/NeptunMini/controllers/HomeController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="392">
+          <caret line="49" column="37" selection-start-line="49" selection-start-column="37" selection-end-line="49" selection-end-column="37" />
+          <folding>
+            <element signature="e#517#518#0" expanded="true" />
+            <element signature="e#549#550#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -761,8 +825,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/unregisterSubject-results.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+        <state relative-caret-position="70">
+          <caret line="76" selection-start-line="76" selection-end-line="76" />
+          <folding>
+            <element signature="e#3154#3155#0" expanded="true" />
+            <element signature="e#3225#3226#0" expanded="true" />
+            <element signature="e#3288#3289#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -778,8 +847,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/subject-list-form.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+        <state relative-caret-position="188">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1244#1245#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -791,15 +864,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/student-list-form.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="14" lean-forward="true" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
+        <state relative-caret-position="323">
+          <caret line="19" column="34" lean-forward="true" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
+          <folding>
+            <element signature="e#232#233#0" expanded="true" />
+            <element signature="e#264#265#0" expanded="true" />
+            <element signature="e#314#315#0" expanded="true" />
+            <element signature="e#356#357#0" expanded="true" />
+            <element signature="e#424#425#0" expanded="true" />
+            <element signature="e#474#475#0" expanded="true" />
+            <element signature="e#516#517#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/registerSubject-form.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="49" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
+        <state relative-caret-position="425">
+          <caret line="25" column="7" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -835,13 +917,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.5.RELEASE/spring-context-5.0.5.RELEASE.jar!/org/springframework/validation/AbstractBindingResult.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="247" selection-start-line="247" selection-end-line="247" />
+          <folding>
+            <element signature="e#8401#8402#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/NeptunMini/controllers/StudentController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="58" column="5" lean-forward="true" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
+        <state relative-caret-position="331">
+          <caret line="128" column="8" selection-start-line="128" selection-start-column="8" selection-end-line="128" selection-end-column="8" />
           <folding>
-            <element signature="e#2975#2976#0" expanded="true" />
-            <element signature="e#3012#3013#0" expanded="true" />
+            <element signature="e#2874#2875#0" expanded="true" />
+            <element signature="e#2911#2912#0" expanded="true" />
+            <element signature="e#3934#3935#0" expanded="true" />
+            <element signature="e#3979#3980#0" expanded="true" />
+            <element signature="e#4846#4847#0" expanded="true" />
+            <element signature="e#4883#4884#0" expanded="true" />
+            <element signature="e#5595#5596#0" expanded="true" />
+            <element signature="e#5642#5643#0" expanded="true" />
           </folding>
         </state>
       </provider>
