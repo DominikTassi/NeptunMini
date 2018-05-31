@@ -12,66 +12,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="addMark-form.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/addMark-form.html">
+      <file leaf-file-name="StudentController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/NeptunMini/controllers/StudentController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="53" column="78" lean-forward="true" selection-start-line="53" selection-start-column="78" selection-end-line="53" selection-end-column="78" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="student-form.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/student-form.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="19" selection-start-line="19" selection-end-line="19" selection-end-column="100" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="student-results.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/student-results.html">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="student-list-form.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/student-list-form.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-125">
-              <caret line="19" column="100" selection-start-line="19" selection-start-column="100" selection-end-line="19" selection-end-column="100" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="subject-form.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/subject-form.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="19" selection-start-line="19" selection-end-line="19" selection-end-column="100" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="subject-list-form.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/subject-list-form.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="21" column="73" selection-start-line="21" selection-start-column="73" selection-end-line="21" selection-end-column="73" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="subject-results.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/subject-results.html">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="unregisterSubject-results.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/unregisterSubject-results.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="432">
+              <caret line="218" lean-forward="true" selection-start-line="218" selection-end-line="218" />
+              <folding>
+                <element signature="e#3345#3346#0" expanded="true" />
+                <element signature="e#3382#3383#0" expanded="true" />
+                <element signature="e#5401#5402#0" expanded="true" />
+                <element signature="e#5446#5447#0" expanded="true" />
+                <element signature="e#6558#6559#0" expanded="true" />
+                <element signature="e#6595#6596#0" expanded="true" />
+                <element signature="e#7307#7308#0" expanded="true" />
+                <element signature="e#7354#7355#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -79,17 +34,8 @@
       <file leaf-file-name="registerSubject-form.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/registerSubject-form.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="60" column="53" selection-start-line="60" selection-start-column="53" selection-end-line="60" selection-end-column="53" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="registerSubject-results.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/registerSubject-results.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+            <state relative-caret-position="446">
+              <caret line="73" column="6" lean-forward="true" selection-start-line="73" selection-start-column="6" selection-end-line="73" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -153,7 +99,6 @@
         <option value="$PROJECT_DIR$/src/main/java/NeptunMini/controllers/WebConfig.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/NeptunMini/controllers/model/MarkModel.java" />
-        <option value="$PROJECT_DIR$/src/main/java/NeptunMini/controllers/StudentController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/unregisterSubject-form.html" />
         <option value="$PROJECT_DIR$/src/main/java/NeptunMini/controllers/model/AddSubjectModel.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/index.html" />
@@ -163,6 +108,7 @@
         <option value="$PROJECT_DIR$/src/main/resources/templates/student-list-form.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/addMark-form.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/subject-list-form.html" />
+        <option value="$PROJECT_DIR$/src/main/java/NeptunMini/controllers/StudentController.java" />
       </list>
     </option>
   </component>
@@ -217,67 +163,12 @@
               <item name="NeptunMini" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NeptunMini" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="NeptunMini" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NeptunMini" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="NeptunMini" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NeptunMini" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="NeptunMini" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NeptunMini" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="NeptunMini" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NeptunMini" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="NeptunMini" type="462c0819:PsiDirectoryNode" />
-              <item name="repository" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NeptunMini" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="NeptunMini" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -567,7 +458,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="108063000" />
+    <option name="totallyTimeSpent" value="108536000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -579,8 +470,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5030257" side_tool="true" weight="0.32804233" />
@@ -592,7 +482,7 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.32486773" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.32421342" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32900432" />
       <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.4969743" weight="0.3269494" />
       <window_info anchor="right" id="Palette&#9;" order="5" />
@@ -600,7 +490,7 @@
       <window_info anchor="bottom" id="Java Enterprise" order="8" weight="0.32900432" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3652531" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.11080711" />
       <window_info anchor="bottom" id="Spring" order="10" weight="0.32804233" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.32804233" />
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4935484" visible="true" weight="0.19921875" />
@@ -608,12 +498,38 @@
       <window_info id="Web" order="5" sideWeight="0.5064516" side_tool="true" weight="0.17750533" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3652531" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5030257" side_tool="true" weight="0.32804233" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4935484" visible="true" weight="0.19921875" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Java Enterprise" order="8" weight="0.32900432" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32804233" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="9" />
+      <window_info id="Web" order="5" sideWeight="0.5064516" side_tool="true" weight="0.17750533" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Spring" order="10" weight="0.32804233" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info id="Image Layers" order="4" />
+      <window_info anchor="right" id="Bean Validation" order="7" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32900432" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info id="UI Designer" order="3" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32804233" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.32486773" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.4969743" weight="0.3269494" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info id="Designer" order="7" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -785,13 +701,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/NeptunMini/controllers/StudentController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="128" column="55" lean-forward="true" selection-start-line="128" selection-start-column="55" selection-end-line="128" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/NeptunMini/services/impl/StudentServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1445">
@@ -847,8 +756,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/registerSubject-form.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="60" column="53" selection-start-line="60" selection-start-column="53" selection-end-line="60" selection-end-column="53" />
+        <state relative-caret-position="446">
+          <caret line="73" column="6" lean-forward="true" selection-start-line="73" selection-start-column="6" selection-end-line="73" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -904,6 +813,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
           <caret line="21" column="73" selection-start-line="21" selection-start-column="73" selection-end-line="21" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/NeptunMini/controllers/StudentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="218" lean-forward="true" selection-start-line="218" selection-end-line="218" />
+          <folding>
+            <element signature="e#3345#3346#0" expanded="true" />
+            <element signature="e#3382#3383#0" expanded="true" />
+            <element signature="e#5401#5402#0" expanded="true" />
+            <element signature="e#5446#5447#0" expanded="true" />
+            <element signature="e#6558#6559#0" expanded="true" />
+            <element signature="e#6595#6596#0" expanded="true" />
+            <element signature="e#7307#7308#0" expanded="true" />
+            <element signature="e#7354#7355#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -191,28 +191,28 @@ public class StudentController implements WebMvcConfigurer {
     @PostMapping("/unregisterSubject")
     public String deleteSubject(@Valid AddSubjectModel deleteSubjectModel, BindingResult bindingResult, RedirectAttributes ra){
         if(bindingResult.hasErrors())
-            return "unregisterSubject-form";
+            return "registerSubject-form";
 
 
         if(studentService.getStudentById(deleteSubjectModel.getStudentId()) == null){
             bindingResult.rejectValue("studentId", "error.addSubjectModel", "No student with this Id");
-            return "unregisterSubject-form";
+            return "registerSubject-form";
         }
 
 
         if(subjectService.getSubjectById(deleteSubjectModel.getSubjectId()) == null){
             bindingResult.rejectValue("subjectId", "error.subjectId", "No subject with this Id");
-            return "unregisterSubject-form";
+            return "registerSubject-form";
         }
         if(studentService.studentHasThis(studentService.getStudentById(deleteSubjectModel.getStudentId()), subjectService.getSubjectById(deleteSubjectModel.getSubjectId()))) {
             studentService.deleteSubjectFromStudent(deleteSubjectModel.getStudentId(), deleteSubjectModel.getSubjectId());
 
             System.out.println(deleteSubjectModel.toString());
             ra.addFlashAttribute("deletedSubject", deleteSubjectModel);
-            return "redirect:/unregisterSubject-results";
+            return "redirect:/registerSubject-results";
         }else{
             bindingResult.rejectValue("subjectId", "error.subjectId", "Student has no subject with this id");
-            return "unregisterSubject-form";
+            return "registerSubject-form";
         }
 
     }
