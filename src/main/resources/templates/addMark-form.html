@@ -33,6 +33,7 @@
         <div style="display: inline-block">
             <form action="#" th:action="@{/student/addMark}" th:object="${markModel}" method="post">
                 <table>
+                    <h2>Add mark</h2>
                     <tr>
                         <td>Student Id:</td>
                         <td><input type="text" th:field="*{studentId}"></td>
@@ -41,6 +42,8 @@
 
                     <td>Subject Id:</td>
                     <td><input type="text" th:field="*{subjectId}"></td>
+                    <td>
+
                     <td th:if="${#fields.hasErrors('subjectId')}" th:errors="*{subjectId}">Subject Id error</td>
                     </tr>
 

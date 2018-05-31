@@ -112,6 +112,7 @@ public class StudentController implements WebMvcConfigurer {
             return "addMark-form";
         }
 
+        List<Subject> allSubject = subjectService.getAllSubject();
 
         if(studentService.studentHasThis(studentService.getStudentById(markModel.getStudentId()), subjectService.getSubjectById(markModel.getSubjectId()))) {
             Student localstudent = studentService.getStudentById(markModel.getStudentId());
@@ -126,6 +127,7 @@ public class StudentController implements WebMvcConfigurer {
 
             System.out.println(markModel.toString());
             ra.addFlashAttribute("newMark", markModel);
+            ra.addAttribute("allSubject", allSubject);
             return "redirect:/addMark-results";
         }else{
             bindingResult.rejectValue("subjectId", "error.subjectId", "Student has no subject with this id");

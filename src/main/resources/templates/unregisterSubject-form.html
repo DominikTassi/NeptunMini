@@ -33,6 +33,7 @@
         <div style="display: inline-block">
             <form action="#" th:action="@{/student/unregisterSubject}" th:object="${addSubjectModel}" method="post">
                 <table>
+                    <h2>Unregister subject</h2>
                     <tr>
                         <td>Student Id:</td>
                         <td><input type="text" th:field="*{studentId}"></td>
