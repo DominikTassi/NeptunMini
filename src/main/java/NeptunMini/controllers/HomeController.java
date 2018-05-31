@@ -8,6 +8,7 @@ package NeptunMini.controllers;
 import NeptunMini.controllers.model.SubjectModel;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
 
 /**
  *
@@ -17,6 +18,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class HomeController {
     @GetMapping("")
     public String showForm(SubjectModel subjectModel) {
-        return "home";
+        return "index";
     }
 }

@@ -42,6 +42,7 @@ public class StudentServiceImplTest {
     @Test
     public void getStudent() throws Exception {
         Mockito.when(studentRepository.getByStudentId("noId")).thenReturn(null);
+      //  Mockito.doAnswer(returnsFirstArg()))
     }
 
 }

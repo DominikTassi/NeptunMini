@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" xmlns:th="http://www.springframework.org/schema/data/jaxb">
+<head>
+<title>NeptunMini</title>
+<meta charset="iso-8859-1">
+  <link rel="stylesheet" type="text/css" th:href="@{/css/style.css}"/>
+<!--[if lt IE 9]><script src="/scripts/html5shiv.js/"></script><![endif]-->
+</head>
+<body>
+<div class="wrapper row1">
+  <header id="header" class="clear">
+    <div id="hgroup">
+      <h1><a href="http://localhost:8080">NeptunMini</a></h1>
+      <h2>Way better.</h2>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="http://localhost:8080/student/">Add student</a></li>
+        <li><a href="#">Text Link</a></li>
+        <li><a href="#">Text Link</a></li>
+        <li><a href="#">Text Link</a></li>
+        <li class="last"><a href="#">Text Link</a></li>
+      </ul>
+    </nav>
+  </header>
+</div>
+<!-- content -->
+<div class="wrapper row2">
+
+  <div id="container" style="text-align: center" >
+    <div style="display: inline-block">
+      <img th:src="@{/img/wall.jpg}" width="95%">
+      <br>
+      It's a nice school bus, isn't it?
+    </div>
+  </div>
+</div>
+<!-- Footer -->
+<div class="wrapper row3">
+  <footer id="footer" class="clear">
+    <p class="fl_left">NeptunMini Copyright &copy; 2018 - All Rights Reserved</p>
+    <p class="fl_right">Tassi Dominik - QLNW5K</p>
+  </footer>
+</div>
+</body>
+</html>
