@@ -1,6 +1,7 @@
 package NeptunMini.controllers.model;
 
-import com.sun.istack.internal.NotNull;
+
+import javax.validation.constraints.NotNull;
 
 public class AddSubjectModel {
     @NotNull

@@ -17,8 +17,7 @@
             <ul>
                 <li><a href="http://localhost:8080/student/">Add student</a></li>
                 <li><a href="http://localhost:8080/student/list">List students</a></li>
-                <li><a href="http://localhost:8080/student/registerSubject">Add subject for student</a></li>
-                <li><a href="http://localhost:8080/student/unregisterSubject">Delete subject for student</a></li>
+                <li><a href="http://localhost:8080/student/registerSubject">Manage subjects</a></li>
                 <li><a href="http://localhost:8080/student/addMark">Add Mark</a></li>
                 <li><a href="http://localhost:8080/subject">Add subject</a></li>
                 <li class="last"><a href="http://localhost:8080/subject/list">List subjects</a></li>
@@ -49,13 +48,16 @@
 
                     <tr>
                         <td>Mark:</td>
-                        <td><input type="text" th:field="*{mark}"></td>
-                        <td th:if="${#fields.hasErrors('mark')}" th:errors="*{mark}">mark error</td>
-                    </tr>
-                    <tr>
-                        <td><button type="submit">Add</button> </td>
+                        <td>
+                            <input type="radio" checked value="1" th:field="*{mark}">1
+                            <input type="radio" value="2" th:field="*{mark}">2
+                            <input type="radio" value="3" th:field="*{mark}">3
+                            <input type="radio" value="4" th:field="*{mark}">4
+                            <input type="radio" value="5" th:field="*{mark}">5
+                        </td>
                     </tr>
                 </table>
+                <button type="submit">Add mark</button>
             </form>
         </div>
     </div>
