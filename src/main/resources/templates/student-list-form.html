@@ -1,32 +1,75 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml"
-      xmlns:th="http://www.thymeleaf.org">
+<html lang="en" dir="ltr" xmlns:th="http://www.springframework.org/schema/data/jaxb">
 <head>
-    <meta charset="UTF-8">
     <title>NeptunMini</title>
+    <meta charset="iso-8859-1">
+    <link rel="stylesheet" type="text/css" th:href="@{/css/style.css}"/>
+    <!--[if lt IE 9]><script src="/scripts/html5shiv.js/"></script><![endif]-->
 </head>
 <body>
-    <h3>Students:</h3>
-        <div    th:each="student : ${studentList}">
-            <h2> <div    th:text="${student.studentId}">studentId</div>
-                <div    th:text="${student.studentName}">studentName</div></h2>
+<div class="wrapper row1">
+    <header id="header" class="clear">
+        <div id="hgroup">
+            <h1><a href="http://localhost:8080">NeptunMini</a></h1>
+            <h2>Way better. Way easier.</h2>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="http://localhost:8080/student/">Add student</a></li>
+                <li><a href="http://localhost:8080/student/list">List students</a></li>
+                <li><a href="http://localhost:8080/student/registerSubject">Add subject for student</a></li>
+                <li><a href="http://localhost:8080/student/unregisterSubject">Delete subject for student</a></li>
+                <li><a href="http://localhost:8080/student/addMark">Add Mark</a></li>
+                <li><a href="http://localhost:8080/subject">Add subject</a></li>
+                <li class="last"><a href="http://localhost:8080/subject/list">List subjects</a></li>
+            </ul>
+        </nav>
+    </header>
+</div>
+<!-- content -->
+<div class="wrapper row2">
 
-            <h3>Registered subjects:</h3>
-            <div    th:each="regsub : ${student.registeredSubjects}">
+    <div id="container" >
+            <h1>Students:</h1>
+        <br>
+        <br>
+            <div    th:each="student : ${studentList}">
                 <h2>
-                    <div    th:text="${regsub.subject.subjectId}">subjectId</div>
-                    <div    th:text="${regsub.subject.subjectName}">subjectName</div>
+                    <div    th:text="${student.studentId}">studentId</div>
+                    <div    th:text="${student.studentName}">studentName</div>
                 </h2>
 
-                Credit:
-                <div    th:text="${regsub.subject.credit}">credit</div>
-                Mark:
-                <div    th:text="${regsub.mark}">mark</div>
+                <br>
+                <br>
+
+                <h3>Registered subjects:</h3>
+                <div    th:each="regsub : ${student.registeredSubjects}">
+
+                        <ul>
+                            <li>
+                                <h2>
+                                <div    th:text="${regsub.subject.subjectId}">subjectId</div>
+                                <div    th:text="${regsub.subject.subjectName}">subjectName</div>
+                                </h2>
+                                Credit:
+                                <div    th:text="${regsub.subject.credit}">credit</div>
+                                Mark:
+                                <div    th:text="${regsub.mark}">mark</div>
+                            </li>
+                        </ul>
+
+
+                </div>
+                <hr>
             </div>
-            <hr>
-        </div>
-    <form action="http://localhost:8080">
-        <input type="submit" value="home" />
-    </form>
+    </div>
+</div>
+<!-- Footer -->
+<div class="wrapper row3">
+    <footer id="footer" class="clear">
+        <p class="fl_left">NeptunMini Copyright &copy; 2018 - All Rights Reserved</p>
+        <p class="fl_right">Tassi Dominik - QLNW5K</p>
+    </footer>
+</div>
 </body>
 </html>

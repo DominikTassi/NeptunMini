@@ -1,33 +1,68 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml"
-      xmlns:th="http://www.thymeleaf.org">
+<html lang="en" dir="ltr" xmlns:th="http://www.springframework.org/schema/data/jaxb">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+    <title>NeptunMini</title>
+    <meta charset="iso-8859-1">
+    <link rel="stylesheet" type="text/css" th:href="@{/css/style.css}"/>
+    <!--[if lt IE 9]><script src="/scripts/html5shiv.js/"></script><![endif]-->
 </head>
 <body>
-<form action="#" th:action="@{/subject}" th:object="${subjectModel}" method="post">
-    <table>
-        <tr>
-            <td>Id:</td>
-            <td><input type="text" th:field="*{subjectId}"></td>
-            <td th:if="${#fields.hasErrors('subjectId')}" th:errors="*{subjectId}">Id error</td>
-        </tr>
-        <tr>
-            <td>Name:</td>
-            <td><input type="text" th:field="*{subjectName}"></td>
-            <td th:if="${#fields.hasErrors('subjectName')}" th:errors="*{subjectName}">Name error</td>
-        </tr>
-        <tr>
-            <td>Credit:</td>
-            <td><input type="text" th:field="*{credit}"></td>
-            <td th:if="${#fields.hasErrors('credit')}" th:errors="*{credit}">credit error</td>
-        </tr>
-        <tr>
-            <td><button type="submit">submit</button> </td>
-        </tr>
-    </table>
+<div class="wrapper row1">
+    <header id="header" class="clear">
+        <div id="hgroup">
+            <h1><a href="http://localhost:8080">NeptunMini</a></h1>
+            <h2>Way better. Way easier.</h2>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="http://localhost:8080/student/">Add student</a></li>
+                <li><a href="http://localhost:8080/student/list">List students</a></li>
+                <li><a href="http://localhost:8080/student/registerSubject">Add subject for student</a></li>
+                <li><a href="http://localhost:8080/student/unregisterSubject">Delete subject for student</a></li>
+                <li><a href="http://localhost:8080/student/addMark">Add Mark</a></li>
+                <li><a href="http://localhost:8080/subject">Add subject</a></li>
+                <li class="last"><a href="http://localhost:8080/subject/list">List subjects</a></li>
+            </ul>
+        </nav>
+    </header>
+</div>
+<!-- content -->
+<div class="wrapper row2">
 
-</form>
+    <div id="container" style="text-align: center" >
+        <div style="display: inline-block">
+            <form action="#" th:action="@{/subject}" th:object="${subjectModel}" method="post">
+                <table>
+                    <tr>
+                        <td>Id:</td>
+                        <td><input type="text" th:field="*{subjectId}"></td>
+                        <td th:if="${#fields.hasErrors('subjectId')}" th:errors="*{subjectId}">Id error</td>
+                    </tr>
+                    <tr>
+                        <td>Name:</td>
+                        <td><input type="text" th:field="*{subjectName}"></td>
+                        <td th:if="${#fields.hasErrors('subjectName')}" th:errors="*{subjectName}">Name error</td>
+                    </tr>
+                    <tr>
+                        <td>Credit:</td>
+                        <td><input type="text" th:field="*{credit}"></td>
+                        <td th:if="${#fields.hasErrors('credit')}" th:errors="*{credit}">credit error</td>
+                    </tr>
+                    <tr>
+                        <td><button type="submit">submit</button> </td>
+                    </tr>
+                </table>
+
+            </form>
+        </div>
+    </div>
+</div>
+<!-- Footer -->
+<div class="wrapper row3">
+    <footer id="footer" class="clear">
+        <p class="fl_left">NeptunMini Copyright &copy; 2018 - All Rights Reserved</p>
+        <p class="fl_right">Tassi Dominik - QLNW5K</p>
+    </footer>
+</div>
 </body>
 </html>

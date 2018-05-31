@@ -1,24 +1,57 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml"
-      xmlns:th="http://www.thymeleaf.org">
+<html lang="en" dir="ltr" xmlns:th="http://www.springframework.org/schema/data/jaxb">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+    <title>NeptunMini</title>
+    <meta charset="iso-8859-1">
+    <link rel="stylesheet" type="text/css" th:href="@{/css/style.css}"/>
+    <!--[if lt IE 9]><script src="/scripts/html5shiv.js/"></script><![endif]-->
 </head>
 <body>
-<h3>Subjects:</h3>
-
-    <div    th:each="subject : ${subjectList}">
-        <h3>
-            <div    th:text="${subject.subjectId}">subjectId</div>
-            <div    th:text="${subject.subjectName}">subjectName</div></h3>
-    Credit:
-    <div    th:text="${subject.credit}">credit</div>
-        <hr>
+<div class="wrapper row1">
+    <header id="header" class="clear">
+        <div id="hgroup">
+            <h1><a href="http://localhost:8080">NeptunMini</a></h1>
+            <h2>Way better. Way easier.</h2>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="http://localhost:8080/student/">Add student</a></li>
+                <li><a href="http://localhost:8080/student/list">List students</a></li>
+                <li><a href="http://localhost:8080/student/registerSubject">Add subject for student</a></li>
+                <li><a href="http://localhost:8080/student/unregisterSubject">Delete subject for student</a></li>
+                <li><a href="http://localhost:8080/student/addMark">Add Mark</a></li>
+                <li><a href="http://localhost:8080/subject">Add subject</a></li>
+                <li class="last"><a href="http://localhost:8080/subject/list">List subjects</a></li>
+            </ul>
+        </nav>
+    </header>
 </div>
+<!-- content -->
+<div class="wrapper row2">
 
-<form action="http://localhost:8080">
-    <input type="submit" value="home" />
-</form>
+    <div id="container" >
+        <h3>Subjects:</h3>
+        <br>
+        <br>
+
+        <div    th:each="subject : ${subjectList}">
+            <h3>
+                <div    th:text="${subject.subjectId}">subjectId</div>
+                <div    th:text="${subject.subjectName}">subjectName</div></h3>
+            Credit:
+            <div    th:text="${subject.credit}">credit</div>
+            <hr>
+        </div>
+            <hr>
+        </div>
+    </div>
+</div>
+<!-- Footer -->
+<div class="wrapper row3">
+    <footer id="footer" class="clear">
+        <p class="fl_left">NeptunMini Copyright &copy; 2018 - All Rights Reserved</p>
+        <p class="fl_right">Tassi Dominik - QLNW5K</p>
+    </footer>
+</div>
 </body>
 </html>
