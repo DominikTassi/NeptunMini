@@ -97,6 +97,8 @@ public class StudentController implements WebMvcConfigurer {
         ModelAndView mav = new ModelAndView();
         List<Subject> subjectList = subjectService.getAllSubject();
         mav.addObject("subjectList", subjectList);
+        List<Student> studentList = studentService.getAllStudent();
+        mav.addObject("studentList", studentList);
         mav.setViewName("addMark-form");
         return mav;
     }
@@ -141,8 +143,14 @@ public class StudentController implements WebMvcConfigurer {
 
 
     @GetMapping("/registerSubject")
-    public String showRegisterSubjectForm(AddSubjectModel addSubjectModel) {
-        return "registerSubject-form";
+    public ModelAndView showRegisterSubjectForm(AddSubjectModel addSubjectModel) {
+        ModelAndView mav = new ModelAndView();
+        mav.setViewName("registerSubject-form");
+        List<Subject> subjectList = subjectService.getAllSubject();
+        mav.addObject("subjectList", subjectList);
+        List<Student> studentList = studentService.getAllStudent();
+        mav.addObject("studentList", studentList);
+       return mav;
     }
 
     @PostMapping("/registerSubject")
@@ -213,7 +221,7 @@ public class StudentController implements WebMvcConfigurer {
 
             System.out.println(deleteSubjectModel.toString());
             ra.addFlashAttribute("deletedSubject", deleteSubjectModel);
-            return "redirect:/registerSubject-results";
+            return "redirect:/unregisterSubject-results";
         }else{
             bindingResult.rejectValue("subjectId", "error.subjectId", "Student has no subject with this id");
             return "registerSubject-form";

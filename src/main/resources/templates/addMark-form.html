@@ -34,14 +34,20 @@
                 <table>
                     <h2>Add mark</h2>
                     <tr>
-                        <td>Student Id:</td>
-                        <td><input type="text" th:field="*{studentId}"></td>
-                        <td th:if="${#fields.hasErrors('studentId')}" th:errors="*{studentId}">Student Id error</td>
+                        <td>Name: </td>
+                        <td>
+                            <select th:field="*{studentId}">
+                                <option value="default">Select student</option>
+                                <option th:each="students : ${studentList}" th:value="${students.studentId}" th:text="${students.studentName}"></option>
+                            </select>
+                        </td>
                     </tr>
 
                     <tr>
+                        <td>Subject: </td>
                         <td>
                             <select th:field="*{subjectId}">
+                                <option value="default">Select subject</option>
                                 <option th:each="subjects : ${subjectList}" th:value="${subjects.subjectId}" th:text="${subjects.subjectName}"></option>
                             </select>
                         </td>
