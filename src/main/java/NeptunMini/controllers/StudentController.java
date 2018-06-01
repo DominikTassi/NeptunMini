@@ -93,8 +93,12 @@ public class StudentController implements WebMvcConfigurer {
 
 
     @GetMapping("/addMark")
-    public String showAddMarkForm(MarkModel markModel) {
-        return "addMark-form";
+    public ModelAndView showAddMarkForm(MarkModel markModel) {
+        ModelAndView mav = new ModelAndView();
+        List<Subject> subjectList = subjectService.getAllSubject();
+        mav.addObject("subjectList", subjectList);
+        mav.setViewName("addMark-form");
+        return mav;
     }
 
     @PostMapping("/addMark")
